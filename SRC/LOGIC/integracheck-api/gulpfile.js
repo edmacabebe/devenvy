@@ -40,7 +40,7 @@ const taskListing = require('gulp-task-listing');
 
 // TODO: This should build a docker container for 
 // Testing the NODE API's or endpoints
-gulp.task('serve-local', ['lint', 'test'], () => { 
+gulp.task('serve-local', ['lint'], () => { 
   serve('local', () => {
     log('Serving Development Environment');
     serveNodemon();
