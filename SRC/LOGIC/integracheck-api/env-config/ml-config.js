@@ -10,7 +10,7 @@ module.exports = () => {
         local: {
             marklogic: {
                 version: 9,
-                hostname: 'localhost',
+                hostname: '172.17.0.2',
                 port: '30050',
                 sessionPort: '8004',
                 sessionUser: 'IntegraCheck-session-user',
